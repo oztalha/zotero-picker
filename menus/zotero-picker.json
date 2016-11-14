@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle zotero-picker",
+        "command": "zotero-picker:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "zotero-picker",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "zotero-picker:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
