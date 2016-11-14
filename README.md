@@ -2,7 +2,7 @@
 
 ## Why
 
-To facilitate citation insertion for those who write in markdown.
+To facilitate citation insertion for those who write in markdown and use Zotero.
 
 One can then simply create latex/pdf with pandoc:
 
@@ -11,7 +11,11 @@ One can then simply create latex/pdf with pandoc:
 ## What
 
 Invokes the Zotero visual picker.
-Inserts the citations key preceded with '@'.
+Inserts the citations key(s) preceded with `@`.
+If multiple items are cited via the picker, a `;` inserted in between,
+as [suggested](http://pandoc.org/demo/example19/Extension-citations.html) by Pandoc:
+
+    Citations go inside square brackets and are separated by semicolons.
 
 ![A screenshot of the package](zotero-picker.gif)
 Note: `alt+z` is the short way to get to the picker.

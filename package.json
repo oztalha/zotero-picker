@@ -1,8 +1,8 @@
 {
   "name": "zotero-picker",
   "main": "./lib/zotero-picker",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.1.0",
+  "description": "Calls Zotero visual picker and inserts citation",
   "keywords": [
   ],
   "activationCommands": {
