@@ -1,10 +1,9 @@
 {
   "name": "zotero-picker",
   "main": "./lib/zotero-picker",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Calls Zotero visual picker and inserts citation(s)",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "zotero-picker:toggle"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
