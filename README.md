@@ -10,15 +10,16 @@ and insert your citations using [Zotero picker plugin](https://atom.io/packages/
 
 ## What
 
-- Invokes the Zotero visual picker.
+- Invokes the Zotero visual picker (with `alt+z` hotkey).
 - Inserts the citations key(s) by preceding (each) with an `@` character.
 If multiple items are cited via the picker, a `;` inserted in between,
-as [suggested](http://pandoc.org/demo/example19/Extension-citations.html) by Pandoc:
-
-    Citations go inside square brackets and are separated by semicolons.
+as [suggested](http://pandoc.org/MANUAL.html#citations) by Pandoc:
+```Citations go inside square brackets and are separated by semicolons.```
+- Zotero picker does not put the square brackets because it is much easier to add a bracket pair (single key stroke in Atom) than removing them (as sometimes [intended](http://pandoc.org/MANUAL.html#citations)).
 
 ![A screenshot of the package](https://raw.githubusercontent.com/oztalha/zotero-picker/master/zotero-picker.gif)
-Note: `alt+z` is the short way to get to the picker.
+
+Note: Zotero-picker just inserts the citation keys, not the bibliography. Read the next section to learn how to get bibliography into your output file.
 
 ## How
 
