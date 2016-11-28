@@ -19,7 +19,7 @@ as [suggested](http://pandoc.org/MANUAL.html#citations) by Pandoc:
 
 ![A screenshot of the package](https://raw.githubusercontent.com/oztalha/zotero-picker/master/zotero-picker.gif)
 
-Note: Zotero-picker just inserts the citation keys, not the bibliography. Read the next section to learn how to get bibliography into your output file.
+Note: Zotero-picker just inserts the citation keys, not the bibliography. Read the next section to learn how to get your bibliography into your output file.
 
 ## How
 
@@ -28,8 +28,8 @@ You can configure Better Bibtex plugin so that it auto-exports your Zotero libra
 
 ![Auto-export Configuration](https://raw.githubusercontent.com/oztalha/zotero-picker/master/auto-export.png)
 
-Using `Zotero-picker` then you can insert your citation keys (when Zotero standalone is running in the background). Note that it does not insert the bibliography itself; [Pandoc](http://pandoc.org) will do that for you once you have your `markdown` (e.g. `input.md`) and `bibliography` (e.g. `mybib.bib`) files ready.
-You can create your `pdf` from `md` using `pandoc` with a simple command then:
+Then you can insert your citation keys using `Zotero-picker` (Zotero standalone should be running in the background). Note that it does not insert the bibliography itself; [Pandoc](http://pandoc.org) will do that for you once you have your `markdown` (i.e. `input.md`) and `bibliography` (i.e. `mybib.bib`) files ready.
+You can create your output (in the form of `pdf`, `html`, `latex` or even `docx`) from `md` using `pandoc` with a simple command then:
 
     pandoc input.md --bibliography=mybib.bib -o output.pdf
 
