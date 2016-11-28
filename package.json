@@ -1,7 +1,7 @@
 {
   "name": "zotero-picker",
   "main": "./lib/zotero-picker",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Invokes Zotero visual picker and inserts citation(s)",
   "keywords": [],
   "activationCommands": {
