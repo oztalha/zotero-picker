@@ -1,5 +1,6 @@
 # zotero-picker package
 
+
 ## Why
 
 To facilitate citation insertion for those who write in markdown and use Zotero.
@@ -13,8 +14,8 @@ One can then simply create `latex` or `pdf` from `md` using `pandoc`:
 
 ## What
 
-Invokes the Zotero visual picker.
-Inserts the citations key(s) by preceding (each) with an `@` character.
+- Invokes the Zotero visual picker.
+- Inserts the citations key(s) by preceding (each) with an `@` character.
 If multiple items are cited via the picker, a `;` inserted in between,
 as [suggested](http://pandoc.org/demo/example19/Extension-citations.html) by Pandoc:
 
@@ -25,9 +26,11 @@ Note: `alt+z` is the short way to get to the picker.
 
 ## Required
 
-- Zotero should be running in the background.
-- Citation keys should've already been generated
+- Zotero standalone should be running in the background.
+- Citation keys should've already been generated (only tested with [Better Bibtex](https://github.com/retorquere/zotero-better-bibtex))
 
 ![Citation key field in Zotero](https://raw.githubusercontent.com/oztalha/zotero-picker/master/citation_key.png)
 
-Note: I recommend auto-generating `Citation Key` field values using [Better Bibtex](https://github.com/retorquere/zotero-better-bibtex). (This is how I also export my `bib` file; using its Better BibLateX translator).
+Note: `Zotero-picker` only inserts the citation key, does not create the bibliography itself. To create the bibliography, you first need to create a `bib` file. You can configure Zotero Better Bibtex so that it auto-exports your library every time you make a change on it (this is how I do, it works very well):
+
+![Auto-export Configuration](https://raw.githubusercontent.com/oztalha/zotero-picker/master/auto-export.png)
